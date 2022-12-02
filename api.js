@@ -16,7 +16,7 @@ const fetchMovieList = async () => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             resolve(database)
-        }, 500)
+        }, 1000)
     })
 }
 
